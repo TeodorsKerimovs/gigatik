@@ -1,0 +1,12 @@
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1480:22:__NVIC_SetPriorityGrouping	24	static
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	16	static
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1639:22:__NVIC_SetPriority	16	static
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1686:26:NVIC_EncodePriority	40	static
+../Src/timers.c:12:6:ConfigureTimer3	16	static
+../Src/timers.c:33:6:EnableTimer3	16	static
+../Src/timers.c:43:6:DisableTimer3	4	static
+../Src/timers.c:48:6:TIM3_IRQHandler	8	static
+../Src/timers.c:66:6:ConfigureTimer4	16	static
+../Src/timers.c:87:6:EnableTimer4	16	static
+../Src/timers.c:97:6:DisableTimer4	4	static
+../Src/timers.c:103:6:TIM4_IRQHandler	8	static

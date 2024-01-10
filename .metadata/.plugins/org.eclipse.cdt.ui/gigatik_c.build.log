@@ -1,0 +1,17 @@
+19:50:19 **** Incremental Build of configuration Debug for project gigatik_c ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32F103RBTx -DSTM32 -DSTM32F1 -DNUCLEO_F103RB -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "gigatik_c.elf" @"objects.list"   -mcpu=cortex-m3 -T"/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik_c/STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="gigatik_c.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: gigatik_c.elf
+ 
+arm-none-eabi-size  gigatik_c.elf 
+arm-none-eabi-objdump -h -S gigatik_c.elf  > "gigatik_c.list"
+   text	   data	    bss	    dec	    hex	filename
+    556	      8	   1568	   2132	    854	gigatik_c.elf
+Finished building: default.size.stdout
+ 
+Finished building: gigatik_c.list
+ 
+
+19:50:20 Build Finished. 0 errors, 0 warnings. (took 386ms)
+

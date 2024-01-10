@@ -1,0 +1,22 @@
+/*
+ * globalFlags.h
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: teodors.kerimovs
+ */
+
+#ifndef GLOBALFLAGS_H_
+#define GLOBALFLAGS_H_
+
+#include <stdint.h>
+#include <stdbool.h>
+#include <stm32f1xx.h>
+#include <stdio.h>
+#include <string.h>
+
+
+extern volatile bool led_on = 0;
+
+void setGlobalFlags(void);
+
+#endif /* GLOBALFLAGS_H_ */

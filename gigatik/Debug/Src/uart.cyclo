@@ -1,0 +1,12 @@
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1480:22:__NVIC_SetPriorityGrouping	1
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	2
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1639:22:__NVIC_SetPriority	2
+/Users/teodors.kerimovs/STM32CubeIDE/workspace_1.14.0/gigatik/Inc/Drivers/CMSIS/Core/Include/core_cm3.h:1686:26:NVIC_EncodePriority	2
+../Src/uart.c:13:6:ConfigureUART	1
+../Src/uart.c:42:6:EnableUART	1
+../Src/uart.c:50:10:uart_read	4
+../Src/uart.c:64:9:uart_read_byte	1
+../Src/uart.c:71:6:uart_send_byte	2
+../Src/uart.c:76:6:uart_send_string	2
+../Src/uart.c:84:6:uart_data_available	1
+../Src/uart.c:89:6:USART2_IRQHandler	2

@@ -1,0 +1,41 @@
+/*
+ * leds.c
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: teodors.kerimovs
+ */
+
+#include "leds.h"
+
+static uint32_t led0_toggle_register;
+static uint32_t led1_toggle_register;
+
+void ConfigureLEDS(void){
+	// For LED 0
+	if(LED_0_GPIOB_PIN == 0){
+		led0_toggle_register = GPIO_ODR_ODR0;
+	}
+	else if(LED_0_GPIOB_PIN == 1){
+		led0_toggle_register = GPIO_ODR_ODR1;
+	}
+	else if(LED_0_GPIOB_PIN == 2){
+		led0_toggle_register = GPIO_ODR_ODR2;
+	}
+	else if(LED_0_GPIOB_PIN == 3){
+		led0_toggle_register = GPIO_ODR_ODR3;
+	}
+
+	// For LED 1
+	if(LED_1_GPIOB_PIN == 0){
+		led1_toggle_register = GPIO_ODR_ODR0;
+	}
+	else if(LED_1_GPIOB_PIN == 1){
+		led1_toggle_register = GPIO_ODR_ODR1;
+	}
+	else if(LED_1_GPIOB_PIN == 2){
+		led1_toggle_register = GPIO_ODR_ODR2;
+	}
+	else if(LED_1_GPIOB_PIN == 3){
+		led1_toggle_register = GPIO_ODR_ODR3;
+	}
+}

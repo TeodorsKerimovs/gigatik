@@ -1,0 +1,24 @@
+/*
+ * leds.h
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: teodors.kerimovs
+ */
+
+#ifndef LEDS_H_
+#define LEDS_H_
+
+#include <stm32f1xx.h>
+#include <stdbool.h>
+
+void ConfigureLEDS(void);
+
+void turnOnLedZero(void);
+void turnOffLedZero(void);
+void turnOnLedOne(void);
+void turnOffLedOne(void);
+
+extern volatile bool zero_led_on;
+extern volatile bool one_led_on;
+
+#endif /* LEDS_H_ */

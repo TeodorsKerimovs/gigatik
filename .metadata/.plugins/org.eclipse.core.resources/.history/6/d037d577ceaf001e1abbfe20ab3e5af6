@@ -1,0 +1,20 @@
+/*
+ * sysClk.h
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: teodors.kerimovs
+ */
+
+#ifndef SYSCLK_H_
+#define SYSCLK_H_
+#include <stdint.h>
+#include <stdbool.h>
+#include <stm32f1xx.h>
+#include <stdio.h>
+#include <string.h>
+
+static void SetSystemClockTo8Mhz(void);
+
+
+
+#endif /* SYSCLK_H_ */

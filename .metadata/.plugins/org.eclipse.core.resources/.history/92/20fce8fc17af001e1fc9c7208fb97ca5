@@ -1,0 +1,13 @@
+/*
+ * ringbuf.h
+ *
+ *  Created on: Jan 9, 2024
+ *      Author: teodors.kerimovs
+ */
+
+#ifndef RINGBUF_H_
+#define RINGBUF_H_
+
+
+
+#endif /* RINGBUF_H_ */

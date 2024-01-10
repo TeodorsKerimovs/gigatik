@@ -1,0 +1,14 @@
+/*
+ * globalFlags.c
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: teodors.kerimovs
+ */
+
+#include "globalFlags.h"
+
+extern volatile bool led_on = 0;
+void setGlobalFlags(void){
+	led_on = 0;
+}
+

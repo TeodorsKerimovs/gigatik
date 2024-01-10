@@ -1,0 +1,10 @@
+23:00:30 **** Incremental Build of configuration Debug for project gigatik ****
+make -j9 all 
+arm-none-eabi-size  gigatik.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6996	     88	   3464	  10548	   2934	gigatik.elf
+Finished building: default.size.stdout
+ 
+
+23:00:30 Build Finished. 0 errors, 0 warnings. (took 231ms)
+
