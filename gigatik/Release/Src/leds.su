@@ -1,0 +1,9 @@
+../Src/leds.c:16:6:ConfigureLEDS	0	static
+../Src/leds.c:48:6:turnOnLedZero	0	static
+../Src/leds.c:52:6:turnOffLedZero	0	static
+../Src/leds.c:56:6:turnOnLedOne	0	static
+../Src/leds.c:60:6:turnOffLedOne	0	static
+../Src/leds.c:64:6:getZeroLedStatus	0	static
+../Src/leds.c:68:6:changeZeroLedStatus	0	static
+../Src/leds.c:72:6:getOneLedStatus	0	static
+../Src/leds.c:76:6:changeOneLedStatus	0	static

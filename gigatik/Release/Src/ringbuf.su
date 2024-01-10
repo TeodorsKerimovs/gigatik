@@ -1,0 +1,4 @@
+../Src/ringbuf.c:11:6:ring_buffer_setup	0	static
+../Src/ringbuf.c:19:6:ring_buffer_empty	0	static
+../Src/ringbuf.c:23:6:ring_buffer_write	8	static
+../Src/ringbuf.c:39:6:ring_buffer_read	0	static

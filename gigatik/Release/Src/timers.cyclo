@@ -1,0 +1,8 @@
+../Src/timers.c:12:6:ConfigureTimer3	1
+../Src/timers.c:33:6:EnableTimer3	1
+../Src/timers.c:43:6:DisableTimer3	1
+../Src/timers.c:48:6:TIM3_IRQHandler	3
+../Src/timers.c:66:6:ConfigureTimer4	1
+../Src/timers.c:87:6:EnableTimer4	1
+../Src/timers.c:97:6:DisableTimer4	1
+../Src/timers.c:103:6:TIM4_IRQHandler	3
