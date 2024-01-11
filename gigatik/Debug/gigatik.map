@@ -1534,7 +1534,7 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_macro   0x0000000000011475       0x10 ./Src/timers.o
  .debug_macro   0x0000000000011485      0x1b2 ./Src/uart.o
 
-.debug_line     0x0000000000000000     0x37fd
+.debug_line     0x0000000000000000     0x37fe
  .debug_line    0x0000000000000000      0x4ff ./Src/gpio.o
  .debug_line    0x00000000000004ff      0x5d4 ./Src/leds.o
  .debug_line    0x0000000000000ad3      0x79a ./Src/main.o
@@ -1543,8 +1543,8 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_line    0x0000000000001bc0      0x527 ./Src/sysClk.o
  .debug_line    0x00000000000020e7      0x517 ./Src/sysmem.o
  .debug_line    0x00000000000025fe      0x8b8 ./Src/timers.o
- .debug_line    0x0000000000002eb6      0x8cc ./Src/uart.o
- .debug_line    0x0000000000003782       0x7b ./Startup/startup_stm32f103rbtx.o
+ .debug_line    0x0000000000002eb6      0x8cd ./Src/uart.o
+ .debug_line    0x0000000000003783       0x7b ./Startup/startup_stm32f103rbtx.o
 
 .debug_str      0x0000000000000000    0x58c4e
  .debug_str     0x0000000000000000    0x54463 ./Src/gpio.o
