@@ -7,6 +7,11 @@
 
 #include "uart.h"
 
+#ifndef UART_BAUD_RATE
+	#define UART_BAUD_RATE 9600
+#endif
+
+
 static ring_buffer_t rb = {0U}; // initialize all memebers to zero
 static uint8_t data_buffer[RING_BUFFER_SIZE] = {0U};
 

@@ -10,6 +10,14 @@
 
 #include <stm32f1xx.h>
 
+#ifndef LED_0_GPIOB_PIN
+	#define LED_0_GPIOB_PIN 0
+#endif
+
+#ifndef LED_1_GPIOB_PIN
+	#define LED_1_GPIOB_PIN 1
+#endif
+
 void ConfigureGPIO(void);
 
 #endif /* GPIO_H_ */

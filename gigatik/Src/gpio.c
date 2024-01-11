@@ -7,6 +7,9 @@
 
 #include "gpio.h"
 
+
+
+
 void ConfigureGPIO(void)
 {
 	// Enable peripheral clocks: PORTA

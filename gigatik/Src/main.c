@@ -19,6 +19,7 @@ uint32_t stringWriteIdx = 0;
 
 int main(void)
 {
+
 	/* Set System clock to 8 MHz using HSI */
 	SetSystemClockTo8Mhz();
 	ConfigureRCC();
